@@ -1,15 +1,20 @@
 :root {
-    --xyzxyz: #F0657F;
+    --greenish: #458B74; /*Background color*/
+    --darkblue: #2F4F4F; /**/
+    --burntorange: #CD6600; /**/
+    --tan: #AA7E28; /**/
+    --mustard: #FFC125; /**/
 }
 
 p {
-    color: aqua;
+    color: white;
 }
 
 body {
-    background-color: var(--xyzxyz);
+    background-color: var(--greenish);
+    
 }
-
+/* custom font from google fonts */
 .tilt-warp-reg {
   font-family: "Tilt Warp", sans-serif;
   font-optical-sizing: auto;
