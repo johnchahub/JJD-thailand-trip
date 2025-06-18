@@ -12,7 +12,23 @@ p {
 
 body {
     background-color: var(--greenish);
+    margin: 10%;
+}
+
+.responsive-design {
+  color: var(--tan)
+}
+
+#header-box {
+    text-align: center;
+    align-content: center;
+    background-color: #AA7E28;
+    margin: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 0px;
     
+    padding: 0;
+    height: 10rem;
 }
 /* custom font from google fonts */
 .tilt-warp-reg {
@@ -23,4 +39,21 @@ body {
   font-variation-settings:
     "XROT" 0,
     "YROT" 0;
+}
+
+
+@media (max-width: 400px) {
+    #header-box {
+        background-color: aqua;
+    }
+
+    p {
+        color: aqua;
+    }
+
+    .responsive-design {
+        color: indigo;
+    }
+
+
 }
