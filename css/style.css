@@ -12,7 +12,7 @@ p {
 
 body {
     background-color: var(--greenish);
-    margin: 10%;
+    margin: 4%;
 }
 
 .responsive-design {
@@ -24,11 +24,11 @@ body {
     align-content: center;
     background-color: #AA7E28;
     margin: 0rem;
-    margin-top: 2rem;
+    /* margin-top: 1rem; */
     margin-bottom: 0px;
-    
-    padding: 0;
-    height: 10rem;
+    padding: 0% 15% 0% 15%;
+    font-size:3vmax;
+    /* height: 10rem; */
 }
 /* custom font from google fonts */
 .tilt-warp-reg {
@@ -47,13 +47,13 @@ body {
         background-color: aqua;
     }
 
-    p {
+    /* p {
         color: aqua;
-    }
+    } */
 
-    .responsive-design {
+    /* .responsive-design {
         color: indigo;
-    }
+    } */
 
 
 }
