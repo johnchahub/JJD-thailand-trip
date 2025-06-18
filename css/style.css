@@ -6,6 +6,17 @@
     --mustard: #FFC125; /**/
 }
 
+/* custom font from google fonts */
+.tilt-warp-reg {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
 p {
     color: white;
 }
@@ -13,10 +24,10 @@ p {
 body {
     background-color: var(--greenish);
     margin: 4%;
-}
-
-.responsive-design {
-  color: var(--tan)
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 #header-box {
@@ -30,16 +41,43 @@ body {
     font-size:3vmax;
     /* height: 10rem; */
 }
-/* custom font from google fonts */
-.tilt-warp-reg {
-  font-family: "Tilt Warp", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "XROT" 0,
-    "YROT" 0;
+
+
+.responsive-design {
+  color: var(--tan)
 }
+
+.timeline {
+    align-items: center;
+    margin:0% auto;
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: black; 
+    color: aliceblue; 
+    height: 25vh; 
+    width: 100%;
+}
+
+.numberline {
+    margin: 10% 20% 30% 40%;
+    align-self: center;
+    height: 10px;
+    border-bottom: 5px solid red;
+    width: 100%
+}
+
+#timeline-title {
+    /* align-content: center; */
+    color:orange;
+    font-size: 2.5vmax;
+    margin: 5% 0% 3% 0%;
+}
+
+
+
+
+
 
 
 @media (max-width: 400px) {
